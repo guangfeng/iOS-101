@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45F19291610BBFD005032D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45F19281610BBFD005032D6 /* UIKit.framework */; };
+		E45F192B1610BBFD005032D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45F192A1610BBFD005032D6 /* Foundation.framework */; };
+		E45F192D1610BBFD005032D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45F192C1610BBFD005032D6 /* CoreGraphics.framework */; };
+		E45F19331610BBFD005032D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45F19311610BBFD005032D6 /* InfoPlist.strings */; };
+		E45F19351610BBFD005032D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F19341610BBFD005032D6 /* main.m */; };
+		E45F19391610BBFD005032D6 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F19381610BBFD005032D6 /* SCAppDelegate.m */; };
+		E45F193B1610BBFD005032D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E45F193A1610BBFD005032D6 /* Default.png */; };
+		E45F193D1610BBFD005032D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E45F193C1610BBFD005032D6 /* Default@2x.png */; };
+		E45F193F1610BBFD005032D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E45F193E1610BBFD005032D6 /* Default-568h@2x.png */; };
+		E45F194E1610BE9F005032D6 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F194C1610BE9F005032D6 /* SCViewController.m */; };
+		E45F194F1610BE9F005032D6 /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45F194D1610BE9F005032D6 /* SCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E45F19241610BBFD005032D6 /* nima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F19281610BBFD005032D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E45F192A1610BBFD005032D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E45F192C1610BBFD005032D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E45F19301610BBFD005032D6 /* nima-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nima-Info.plist"; sourceTree = "<group>"; };
+		E45F19321610BBFD005032D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E45F19341610BBFD005032D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45F19361610BBFD005032D6 /* nima-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nima-Prefix.pch"; sourceTree = "<group>"; };
+		E45F19371610BBFD005032D6 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		E45F19381610BBFD005032D6 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		E45F193A1610BBFD005032D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E45F193C1610BBFD005032D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E45F193E1610BBFD005032D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E45F194B1610BE9F005032D6 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewController.h; path = ../SCViewController.h; sourceTree = "<group>"; };
+		E45F194C1610BE9F005032D6 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewController.m; path = ../SCViewController.m; sourceTree = "<group>"; };
+		E45F194D1610BE9F005032D6 /* SCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCViewController.xib; path = ../SCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45F19211610BBFD005032D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F19291610BBFD005032D6 /* UIKit.framework in Frameworks */,
+				E45F192B1610BBFD005032D6 /* Foundation.framework in Frameworks */,
+				E45F192D1610BBFD005032D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45F19191610BBFD005032D6 = {
+			isa = PBXGroup;
+			children = (
+				E45F192E1610BBFD005032D6 /* nima */,
+				E45F19271610BBFD005032D6 /* Frameworks */,
+				E45F19251610BBFD005032D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45F19251610BBFD005032D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45F19241610BBFD005032D6 /* nima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45F19271610BBFD005032D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45F19281610BBFD005032D6 /* UIKit.framework */,
+				E45F192A1610BBFD005032D6 /* Foundation.framework */,
+				E45F192C1610BBFD005032D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45F192E1610BBFD005032D6 /* nima */ = {
+			isa = PBXGroup;
+			children = (
+				E45F194B1610BE9F005032D6 /* SCViewController.h */,
+				E45F194C1610BE9F005032D6 /* SCViewController.m */,
+				E45F194D1610BE9F005032D6 /* SCViewController.xib */,
+				E45F19371610BBFD005032D6 /* SCAppDelegate.h */,
+				E45F19381610BBFD005032D6 /* SCAppDelegate.m */,
+				E45F192F1610BBFD005032D6 /* Supporting Files */,
+			);
+			path = nima;
+			sourceTree = "<group>";
+		};
+		E45F192F1610BBFD005032D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45F19301610BBFD005032D6 /* nima-Info.plist */,
+				E45F19311610BBFD005032D6 /* InfoPlist.strings */,
+				E45F19341610BBFD005032D6 /* main.m */,
+				E45F19361610BBFD005032D6 /* nima-Prefix.pch */,
+				E45F193A1610BBFD005032D6 /* Default.png */,
+				E45F193C1610BBFD005032D6 /* Default@2x.png */,
+				E45F193E1610BBFD005032D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45F19231610BBFD005032D6 /* nima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F19481610BBFD005032D6 /* Build configuration list for PBXNativeTarget "nima" */;
+			buildPhases = (
+				E45F19201610BBFD005032D6 /* Sources */,
+				E45F19211610BBFD005032D6 /* Frameworks */,
+				E45F19221610BBFD005032D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nima;
+			productName = nima;
+			productReference = E45F19241610BBFD005032D6 /* nima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45F191B1610BBFD005032D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Seimei;
+			};
+			buildConfigurationList = E45F191E1610BBFD005032D6 /* Build configuration list for PBXProject "nima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E45F19191610BBFD005032D6;
+			productRefGroup = E45F19251610BBFD005032D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45F19231610BBFD005032D6 /* nima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45F19221610BBFD005032D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F19331610BBFD005032D6 /* InfoPlist.strings in Resources */,
+				E45F193B1610BBFD005032D6 /* Default.png in Resources */,
+				E45F193D1610BBFD005032D6 /* Default@2x.png in Resources */,
+				E45F193F1610BBFD005032D6 /* Default-568h@2x.png in Resources */,
+				E45F194F1610BE9F005032D6 /* SCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45F19201610BBFD005032D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F19351610BBFD005032D6 /* main.m in Sources */,
+				E45F19391610BBFD005032D6 /* SCAppDelegate.m in Sources */,
+				E45F194E1610BE9F005032D6 /* SCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E45F19311610BBFD005032D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45F19321610BBFD005032D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45F19461610BBFD005032D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45F19471610BBFD005032D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45F19491610BBFD005032D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nima/nima-Prefix.pch";
+				INFOPLIST_FILE = "nima/nima-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E45F194A1610BBFD005032D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nima/nima-Prefix.pch";
+				INFOPLIST_FILE = "nima/nima-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45F191E1610BBFD005032D6 /* Build configuration list for PBXProject "nima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F19461610BBFD005032D6 /* Debug */,
+				E45F19471610BBFD005032D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F19481610BBFD005032D6 /* Build configuration list for PBXNativeTarget "nima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F19491610BBFD005032D6 /* Debug */,
+				E45F194A1610BBFD005032D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45F191B1610BBFD005032D6 /* Project object */;
+}
